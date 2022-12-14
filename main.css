@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.web{
+    background-image: url(https://www.elscript.com/images/aboutus-bg.webp);
+}
