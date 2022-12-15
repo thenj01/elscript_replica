@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width= , initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,34 +46,42 @@
     </nav>
     <!--Hero section started-->
     <section class="container flex">
-        <div class="hero-section pb-24 justify-around bg-white container my-0">
-            <div class="mx-4 my-3 pr-12 justify-center text-5xl font-normal uppercase">
-                <p>We can help<br> your<br> business</p>
-            </div>
-            <div class="mx-4 pr-12 justify-center text-5xl font-normal uppercase">
-                <p>Thrive to Success</p>
-            </div>
-            <div class="btn mx-6 my-10 ">
-                <div class="buttons flex space-x-3 text-xl  px-2 max-w-xl">
-                    <button class="bg-white border-2 border-solid border-green-600 px-3 py-2 pr-6 pl-4 justify-center">
-                        Contact
-                    </button>
-                    <button class="bg-green-600 px-3 text-white hover:bg-slate-600 justify-center px-3 py-2 pr-6 pl-5">
-                        Clients
-                    </button>
+        <div class="hero_sec flex justify-between ">
+            <div class="hero-section justify-center container ">
+                <div class="mx-4 my-3 pr-12 justify-center text-5xl font-normal uppercase">
+                    <div class="mx-4 pr-12 justify-center text-5xl font-normal uppercase">
+                        <p>We can help<br> your<br> business</p>
+                    </div>
+
+                    <div class="mx-4 pr-12 justify-center text-5xl font-normal uppercase">
+                        <p>Thrive to Success</p>
+                    </div>
+                    <div class="btn mx-6 my-6 ">
+                        <div class="buttons flex space-x-3 text-xl  px-2 max-w-xl">
+                            <button
+                                class="bg-white border-2 border-solid border-green-600 px-3 py-2 pr-6 pl-4 justify-center">
+                                Contact
+                            </button>
+                            <button
+                                class="btn2 bg-grass px-3 text-white hover:bg-slate-600 justify-center px-3 py-2 pr-6 pl-5">
+                                Clients
+                            </button>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
-        </div>
 
-        <div class="px-18">
-            <img src="/2.webp" alt="elscript hero" class="h-30 max-w-2xl" />
-        </div>
+            <div class=" my-0">
+                <img src="/2.webp" alt="elscript hero" class="max-w-xl">
+            </div>
         </div>
     </section>
     <!-- Hero section ended -->
     <!-- client section started -->
     <section class="client_section">
-        <div class="client-section container flex  h-40 ">
+        <div class="client-section container flex h-40 ">
             <div class="box1 px-4 py-5  text-3xl font-normal bg-zinc-500 w-5/12 text-white text-end">
                 <p class="uppercase">
                     Building Relationships that works and lasts.
@@ -81,7 +90,7 @@
                     <p>Obsessed with quality!</p>
                 </span>
             </div>
-            <div class="box2 text-center py-12 text-white w-2/12 bg-green-600">
+            <div class="box2 text-center py-12 text-white w-2/12 bg-grass-500">
                 <p class="text-2xl">+3</p>
                 <p class="text-xs">Experience</p>
             </div>
@@ -111,6 +120,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- client section ended -->
     <!-- about us / web development section started -->
@@ -161,40 +171,42 @@
                 </span>
 
             </div>
-            <div class="web_box2  bg-pink-500 w-6/12">
-                <h1 class="text-center text-3xl py-9"> EXCELLENT CUSTOMER SERVICE IS OUR FOUNDATION</h1>
+            <!-- right side of about us -->
+            <div class="web_box2   w-6/12">
+                <h1 class="text-center text-2xl py-2"> EXCELLENT CUSTOMER SERVICE IS OUR FOUNDATION</h1>
                 <div class="container">
-                    <div class="container flex mx-12 w-10/12 h-56 justify-between bg-red-500">
-                        <div class="division_one mx-8 my-8 w-56 h-32 text-center bg-green-800">
-                            <div class="pom-icon text-center w-12">
-                                <span class="material-symbols-outlined justify-content-center google-icon">
+                    <div class="container flex mx-12 w-10/12 max-h-72 justify-between ">
+                        <div class="division_one px-8 my-8 w-5/6 h-60 text-center bg-red-500">
+                            <div class="pom-icon px-12 pt-5 py-4 text-green-600  w-12">
+                                <span class="material-symbols-outlined justify-content-center google-icon text-[60px]">
                                     tips_and_updates
                                 </span>
                             </div>
 
                             <h3> Strategic Foundation</h3>
-                            <p class="text-xs">
+                            <p class="text-xs text-center py-2">
                                 The basis of any digital endeavor we launch at Elscript is a well-defined idea, thus our
                                 smart specialists analyze ideas from all perspectives.
                             </p>
 
                         </div>
-                        <div class="division_two mx-8 my-8 w-56 h-28 bg-yellow-500">
-                                    
-
+                        <div class="division_two px-8 my-8 w-5/6 h-60 text-center bg-blue-500">
+                            <div class="pom-icon  px-12 pt-5 py-4 text-green-600  w-12 justify-content-center">
+                                <span class="material-symbols-outlined justify-content-center google-icon text-[60px]">
+                                    badge
+                                </span>
+                            </div>
+                            <h3>Expert professionals</h3>
+                            <p class="text-xs text-center py-2">Successful initiatives are the result of close
+                                collaboration, which also enables us to
+                                recognize the importance of teamwork in turning ideas into reality.</p>
                         </div>
 
                     </div>
                 </div>
             </div>
-
-            <!-- container right side  -->
-
+            <!--right side of about us ended -->
         </div>
-        </div>
-
-
     </section>
 </body>
-
 </html>

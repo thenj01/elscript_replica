@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.web{
-    background-image: url(https://www.elscript.com/images/aboutus-bg.webp);
+.btn2{
+    background-color: #3cb878;
 }
+.box1{
+    background-color: #6d6d6d;
+}
+.box2{
+    background-color: #3cb878;
+}
+

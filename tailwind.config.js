@@ -3,7 +3,11 @@ module.exports = {
   content: ["*"],
   theme: {
     extend: {
-      },
-  },
-  plugins: [],
+      colors: {
+        'grass':'#3cb878',
+        'grey':'#6d6d6d',
+            },
+    },
+    plugins: [],
+  }
 }
