@@ -11,6 +11,12 @@
 .box2{
     background-color: #3cb878;
 }
+.Web{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)) ,url(./public/aboutus-bg.webp);
+    background-size: cover;
+    background-position: center;
+    
+}
 .division_one{
     background-color: #ededed;
 }
