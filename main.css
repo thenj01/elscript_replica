@@ -2,30 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn2{
+
+@media only screen and (max-width: 768.5px) {
+.nav_bar {
+    z-index: 99;
+}
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 22%);
+}
+
+.btn2 {
     background-color: #3cb878;
 }
-.box1{
+
+.box1 {
     background-color: #6d6d6d;
 }
-.box2{
+
+.box2 {
     background-color: #3cb878;
 }
-.Web{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)) ,url(./public/aboutus-bg.webp);
+
+.Web {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(/aboutus-bg.webp);
     background-size: cover;
     background-position: center;
-    
+
 }
-.division_one{
+
+.division_one {
     background-color: #ededed;
 }
-.division_two{
+
+.division_two {
     background-color: #ededed;
 }
-.division_three{
+
+.division_three {
     background-color: #ededed;
 }
-.division_four{
+
+.division_four {
     background-color: #ededed;
+}
+
+.us1 {
+    color: #3cb878;
 }
