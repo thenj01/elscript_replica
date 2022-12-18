@@ -5,11 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-        grass: '#3cb878',
-        silver:'#ededed',
+      fontFamily: {
+        body: "'Varela', serif",
       }
     },
   },
-  plugins: [],
+plugins: [],
 }

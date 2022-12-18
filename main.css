@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 @media only screen and (max-width: 768.5px) {
-.nav_bar {
-    z-index: 99;
+    .nav_bar {
+        z-index: 99;
+    }
 }
-}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -54,26 +57,40 @@
 
 .us1 {
     color: #3cb878;
-    
+
 }
+
 .services {
-   background-color: #f7f7f7;
+    background-color: #f7f7f7;
 
 }
-.web1{
+
+.web1 {
     color: #3cb878;
-}
-.pom-icon{
-    color: #3cb878;
-}
-.icon{
-    color:#3cb878
-}
-.package_list{
-    background-color:#f7f7f7 ;
 }
 
-.check{
-    color:#3cb878;
-   
+.pom-icon {
+    color: #3cb878;
 }
+
+.icon {
+    color: #3cb878
+}
+
+.package_list {
+    background-color: #f7f7f7;
+}
+
+.check {
+    color: #3cb878;
+
+}
+.form{
+    border:none;
+
+}
+.footer{
+    background-color: #272727 ;
+}
+
+
