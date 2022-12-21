@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,9 +10,11 @@
     }
 }
 
-body{
+body {
     border: 2px red solid;
+    font-family: 'Varela Round', sans-serif;
 }
+
 
 /* .sticky {
     position: fixed;
@@ -62,7 +64,6 @@ body{
     color: #3cb878;
 
 }
-
 .services {
     background-color: #f7f7f7;
 
@@ -88,12 +89,12 @@ body{
     color: #3cb878;
 
 }
-.form{
-    border:none;
+
+.form {
+    border: none;
 
 }
-.footer{
-    background-color: #272727 ;
+
+.footer {
+    background-color: #272727;
 }
-
-

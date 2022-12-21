@@ -1,14 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./*.html",
+    "*",
   ],
-  theme: {
-    extend: {
-      fontFamily: {
-        body: "'Varela', serif",
-      }
+    theme: {
+      extend: {
+        colors :{
+          'grass': '#3cb878',
+          'silver': '#6d6d6d',
+          'silicon': '#ededed',
+        },
+      },
     },
-  },
-plugins: [],
-}
+    variants: {},
+    plugins: [],
+  }
+  

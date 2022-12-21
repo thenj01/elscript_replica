@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width= , initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/path/to/tailwind.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,13 +18,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+
     <title>Website Design and Development-Elscript Technology</title>
 </head>
 
-<body class="bg-white font-body">
+<body class="bg-white">
     <!-- navigation bar -->
     <nav class="nav_bar sticky flex justify-between z-50 bg-white ">
         <img src="/1.webp" alt="Company Logo" class="logo h-14 w-40 mx-1 my-2 px-1">
+
         <ul class=" nav_list px-11 py-5 flex space-x-12 justify-end max-[1029px]:hidden">
             <li class="cursor-pointer hover:text-green-600">
                 <a href="https://www.elscript.com/">Home</a>
@@ -45,57 +48,46 @@
                 <a href="https://www.elscript.com/our-contact"></a>Contact
             </li>
         </ul>
-        <span class="hidden text-green-600 py-3 text-5xl material-symbols-outlined max-[968px]:block items-end">
+        <span class="hidden text-green-600 py-3 text-5xl material-symbols-outlined max-[1029px]:block items-end">
             menu
         </span>
     </nav>
     <!--Hero section started-->
     <section>
-        <div class="hero-section flex justify-between">
-            
-                <!-- hero section text -->
-                <div class="justify-between">
-                    <div class="herotext uppercase text-[50px] text-left pl-6 py-2 pr-6 w-72 leading-10">
-                        <h4>We can help<br>
-                            your business<br>
-                            Reach Potential Customers.
-                        </h4>
-                    </div>
-                    <!-- BUTTONS -->
-                    <div class="btn mx-6 my-2">
-                        <div class="buttons flex space-x-3 text-xl  px-2 max-w-xl">
-                            <button
-                                class="bg-white border-2 border-solid border-green-600 px-3 py-2 pr-6 pl-4 justify-center">
-                                Contact
-                            </button>
-                            <button
-                                class="btn2 bg-grass text-white hover:bg-slate-600 justify-center px-3 py-2 pr-6 pl-5">
-                                Clients
-                            </button>
-                        </div>
-                    </div>
-
+        <div class="hero-section grid-cols-1 lg:grid-cols-2">
+            <!-- hero section text -->
+            <div class="mr-32 pr-20 ">
+                <div
+                    class="herotext uppercase text-[45px] text-left pl-6 py-2 leading-[3rem] max-[1135px]:text-3xl max-[786px]:text:2xl">
+                    <h4>We can help<br>
+                        your business<br>
+                        Reach Potential Customers.
+                    </h4>
                 </div>
-                <!-- image -->
-                <div class="justify-end">
-                    <img src="/2.webp" alt="elscript hero" class="w-auto h-96">
+                <!-- BUTTONS -->
+                <div class="btn mx-6 mb-4">
+                    <div class="buttons flex space-x-3 text-xl px-2 max-w-xl">
+                        <button
+                            class="bg-white border-2 border-solid border-green-600 px-3 py-2 pr-6 pl-4 justify-center">
+                            Contact
+                        </button>
+                        <button class="btn2 bg-grass text-white hover:bg-slate-600 justify-center px-3 py-2 pr-6 pl-5">
+                            Clients
+                        </button>
+                    </div>
                 </div>
-            
+            </div>
+            <!-- image -->
+            <div class="heroimg ">
+                <img src="/2.webp" alt="elscript hero" class="w-auto max-sm:h-auto">
+            </div>
         </div>
-
-
-
-        <!-- image of elscript hero -->
-
-        </div>
-
-
     </section>
     <!-- Hero section ended -->
     <!-- client section started -->
     <section class="client_section">
         <div class="client-section flex h-40 ">
-            <div class="box1 px-4 py-5  text-3xl font-normal bg-zinc-500  text-white text-end">
+            <div class="box1 pr-14 py-8 text-2xl  font-normal bg-silver  text-white text-end max-[528px]:min-w-full">
                 <p class="uppercase">
                     Building Relationships that works and lasts.
                 </p>
@@ -103,31 +95,29 @@
                     <p>Obsessed with quality!</p>
                 </span>
             </div>
-            <div class="box2 text-center py-12 text-white w-2/12 bg-grass-500">
+            <div class="box2 text-center w-3/12 py-12 text-white">
                 <p class="text-2xl">+3</p>
                 <p class="text-xs">Experience</p>
             </div>
             <div
-                class="box3 bg-white w-auto flex text-center py-12 text-black border-b-[2px] border-black align-middle">
-                <div class="px-11  border-r-[1px] border-black text-center">
+                class="box3 bg-white flex text-center py-12 text-black border-b-[2px] border-black align-middle max-[1244px]:">
+                <div class="boxone px-11  border-r-[1px] border-black text-center">
                     <p class="text-2xl"> 25+</p>
                     <span>
                         <p class="text-xs">Services</p>
                     </span>
 
                 </div>
-                <div class="box4">
+                <div class="boxtwo">
                     <div class="px-11 border-r-[1px] border-black text-center">
                         <p class="text-2xl"> 520+</p>
-
-
                         <span>
                             <p class="text-xs">Successful Projects</p>
                         </span>
                     </div>
                 </div>
-                <div class="box5">
-                    <div class="px-11 border-r-[1px] border-black">
+                <div class="boxthree ">
+                    <div class="px-11 border-r-[1px] border-black w-auto">
                         <p class="text-2xl"> 400+</p>
                         <p class="text-xs">Happy Clients</p>
                     </div>
@@ -141,7 +131,7 @@
         <div class="Web  flex justify-between">
             <!-- left side of about us  -->
             <div class="content_main bg-transparent w-6/12">
-                <h2 class="uppercase text-4xl text-center pl-12 py-5 text-green-600"> Website Design and
+                <h2 class="uppercase text-4xl text-center pl-12 py-5 text-green-500"> Website Design and
                     Development</h2>
 
                 <p class="text-justify text-[16px] pl-16 py-6 tracking-tight"> Elscript Technology is the Best Website
