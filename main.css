@@ -15,6 +15,56 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
+@media only screen and (max-width: 640px) {
+    .hero_content {
+        order: 2;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .herotext {
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+        align-items: center;
+        font-size: 10px;
+
+    }
+
+    .heroimg {
+        order: 1;
+    }
+}
+@media only screen and (max-width: 1240px) {
+    .client-section {
+        
+       
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .box2 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .client-section .box3 .boxone {
+        border-bottom: 1px #6d6d6d;
+    }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .content_main {
+        margin-top: 100%;
+        font-size: 20px;
+    }
+
+}
+
+
 
 /* .sticky {
     position: fixed;
@@ -64,6 +114,7 @@ body {
     color: #3cb878;
 
 }
+
 .services {
     background-color: #f7f7f7;
 

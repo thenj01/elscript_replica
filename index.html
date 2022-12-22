@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/path/to/tailwind.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,11 +54,11 @@
     </nav>
     <!--Hero section started-->
     <section>
-        <div class="hero-section grid-cols-1 lg:grid-cols-2">
+        <div class="hero-section grid grid-cols-2 max-sm:grid-cols-1 order-first max-sm:order-last">
             <!-- hero section text -->
-            <div class="mr-32 pr-20 ">
+            <div class="hero_content mr-32  bg-slate-400 pr-32">
                 <div
-                    class="herotext uppercase text-[45px] text-left pl-6 py-2 leading-[3rem] max-[1135px]:text-3xl max-[786px]:text:2xl">
+                    class="herotext uppercase text-5xl text-left pl-6 py-2  max-[1135px]:text-3xl max-[786px]:text:2xl">
                     <h4>We can help<br>
                         your business<br>
                         Reach Potential Customers.
@@ -86,8 +86,8 @@
     <!-- Hero section ended -->
     <!-- client section started -->
     <section class="client_section">
-        <div class="client-section flex h-40 ">
-            <div class="box1 pr-14 py-8 text-2xl  font-normal bg-silver  text-white text-end max-[528px]:min-w-full">
+        <div class="client-section flex max-[640px]:flex-wrap h-40">
+            <div class="box1 pr-14 py-8 text-2xl font-normal bg-silver  text-white text-end max-[528px]:min-w-full">
                 <p class="uppercase">
                     Building Relationships that works and lasts.
                 </p>
@@ -95,29 +95,33 @@
                     <p>Obsessed with quality!</p>
                 </span>
             </div>
-            <div class="box2 text-center w-3/12 py-12 text-white">
+            <div class="box2 max-sm:w-full text-center w-3/12 py-12 text-white">
                 <p class="text-2xl">+3</p>
                 <p class="text-xs">Experience</p>
             </div>
             <div
-                class="box3 bg-white flex text-center py-12 text-black border-b-[2px] border-black align-middle max-[1244px]:">
-                <div class="boxone px-11  border-r-[1px] border-black text-center">
-                    <p class="text-2xl"> 25+</p>
-                    <span>
-                        <p class="text-xs">Services</p>
-                    </span>
-
+                class="box3 bg-white flex max-sm:flex-col max-sm:w-full max-[1248px]:flex-col max-[1248px]:px-6 max-[1248px]:py-6 text-center max-[640px]:pt-9 py-12 text-black border-b-[2px] border-black align-middle max-sm:border-none">
+                <div class="boxone">
+                    <div
+                        class="box_one px-11 border-r-[1px] max-[640px]:border-r-hidden max-[670px]:border-b-[1px] max-[1248px]:border-b-[1px] max-[1248px]:border-r-0 border-black text-center">
+                        <p class="text-2xl"> 25+</p>
+                        <span>
+                            <p class="text-xs">Services</p>
+                        </span>
+                    </div>
                 </div>
                 <div class="boxtwo">
-                    <div class="px-11 border-r-[1px] border-black text-center">
+                    <div
+                        class="box_two px-11 border-r-[1px] max-[640px]:border-r-hidden max-[670px]:border-b-[1px] max-[1248px]:border-r-0 border-black text-center">
                         <p class="text-2xl"> 520+</p>
                         <span>
                             <p class="text-xs">Successful Projects</p>
                         </span>
                     </div>
                 </div>
-                <div class="boxthree ">
-                    <div class="px-11 border-r-[1px] border-black w-auto">
+                <div class="boxthree">
+                    <div
+                        class="box_three px-11 border-r-[1px] max-[640px]:border-r-hidden max-[1248px]:border-r-0 max-[670px]:border-b-[1px] border-black w-auto">
                         <p class="text-2xl"> 400+</p>
                         <p class="text-xs">Happy Clients</p>
                     </div>
@@ -128,13 +132,15 @@
     <!-- client section ended -->
     <!-- about us / web development section started -->
     <section class="my-12">
-        <div class="Web  flex justify-between">
+        <div class="Web  flex max-[640px]:flex-col max-[640px]:flex-wrap justify-between">
             <!-- left side of about us  -->
             <div class="content_main bg-transparent w-6/12">
+                <!-- content -->
                 <h2 class="uppercase text-4xl text-center pl-12 py-5 text-green-500"> Website Design and
                     Development</h2>
 
-                <p class="text-justify text-[16px] pl-16 py-6 tracking-tight"> Elscript Technology is the Best Website
+                <p class="text-justify text-[16px] pl-16 py-6 tracking-tight max-[540px]:flex-wrap"> Elscript Technology
+                    is the Best Website
                     Design and
                     Development Company in Kathmandu, Nepal.One of the top online solution providers in
                     Nepal,
@@ -169,8 +175,6 @@
                     by utilizing the knowledge of our astute Internet marketing specialists. We can assist
                     your
                     website in reaching its intended audience while expanding its market.</p>
-
-
                 </span>
 
             </div>
@@ -178,7 +182,7 @@
             <div class="web_box2 w-6/12">
                 <h1 class="text-center text-2xl py-2"> EXCELLENT CUSTOMER SERVICE IS OUR FOUNDATION</h1>
                 <div class="">
-                    <div class=" flex mx-12 w-10/12 max-h-72 justify-between ">
+                    <div class="grid grid-cols-2 pl-11  max-h-72 ">
                         <div class="division_one px-2  my-8 w-5/6 h-60 mr-6 text-center ">
                             <div class="pom-icon px-16 pt-5 py-0 text-green-600  w-12 justify-content-center">
                                 <span class="material-symbols-outlined justify-content-center google-icon text-[60px]">
@@ -205,7 +209,7 @@
                                 recognize the importance of teamwork in turning ideas into reality.</p>
                         </div>
                     </div>
-                    <div class=" flex mx-12 w-10/12 max-h-72 justify-between ">
+                    <div class=" grid grid-cols-2 pl-11  max-h-72 ">
                         <div class="division_three my-8 mr-6 px-2 py-3  w-5/6 h-64 text-center ">
                             <div class="pom-icon px-16 pt-5 py-0 text-green-600  w-12 justify-content-center">
                                 <span class="material-symbols-outlined justify-content-center google-icon text-[60px]">
@@ -1534,7 +1538,7 @@
                 </div>
                 <!-- FORM SIDE -->
                 <div class="px-8 py-8 pb-0">
-                    <h2 class="text-4xl py-2 text-4xl">Lets Get Started Now</h2>
+                    <h2 class="py-2 text-4xl">Lets Get Started Now</h2>
                     <p class="py-4 text-[18px]">Please fill out the quick form and we will be in touch with you in
                         lightning
                         speed</p>
