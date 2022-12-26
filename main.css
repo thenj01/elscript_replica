@@ -10,11 +10,14 @@
     }
 }
 
-body {
-    border: 2px red solid;
-    font-family: 'Varela Round', sans-serif;
-}
 
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    
+
+    
+}
 @media only screen and (max-width: 640px) {
     .hero_content {
         order: 2;
@@ -34,12 +37,6 @@ body {
 
     .heroimg {
         order: 1;
-    }
-}
-@media only screen and (max-width: 1240px) {
-    .client-section {
-        
-       
     }
 }
 
@@ -114,6 +111,12 @@ body {
     color: #3cb878;
 
 }
+.bronze_package{
+    background-color: #3cb878;
+}
+.premium_package{
+    background-color: #3cb878;
+}
 
 .services {
     background-color: #f7f7f7;
@@ -140,7 +143,12 @@ body {
     color: #3cb878;
 
 }
+.contact_us {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(/aboutus-bg.webp);
+    background-size: cover;
+    background-position: center;
 
+}
 .form {
     border: none;
 

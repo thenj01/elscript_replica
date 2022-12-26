@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,11 +56,10 @@
     <section>
         <div class="hero-section grid grid-cols-2 max-sm:grid-cols-1 order-first max-sm:order-last">
             <!-- hero section text -->
-            <div class="hero_content mr-32  bg-slate-400 pr-32">
-                <div
-                    class="herotext uppercase text-5xl text-left pl-6 py-2  max-[1135px]:text-3xl max-[786px]:text:2xl">
-                    <h4>We can help<br>
-                        your business<br>
+            <div class="hero_content mr-32 pr-32 pl-6 py-2 ">
+                <div class="herotext uppercase text-[45px] max-md:text-lg text-left max-xl:text-3xl">
+                    <h4>We can help
+                        your business
                         Reach Potential Customers.
                     </h4>
                 </div>
@@ -78,32 +77,34 @@
                 </div>
             </div>
             <!-- image -->
-            <div class="heroimg ">
+            <div class="heroimg">
                 <img src="/2.webp" alt="elscript hero" class="w-auto max-sm:h-auto">
             </div>
         </div>
     </section>
     <!-- Hero section ended -->
     <!-- client section started -->
-    <section class="client_section">
-        <div class="client-section flex max-[640px]:flex-wrap h-40">
-            <div class="box1 pr-14 py-8 text-2xl font-normal bg-silver  text-white text-end max-[528px]:min-w-full">
+    <section>
+        <div class="client-section flex max-sm:flex-col max-md:flex-col max-xl:max-h-[14rem] max-h-[10rem]">
+            <div
+                class="box1 pr-14 py-8 text-2xl font-normal bg-silver text-white max-md:w-full text-end max-sm:min-w-full max-xl:w-10/12  max-xl:items-stretch">
                 <p class="uppercase">
                     Building Relationships that works and lasts.
                 </p>
-                <span class="textbox1 text-xs">
+                <span class="textbox1  text-xs">
                     <p>Obsessed with quality!</p>
                 </span>
             </div>
-            <div class="box2 max-sm:w-full text-center w-3/12 py-12 text-white">
+            <div class="box2  max-sm:w-full text-center w-4/12 py-12 text-white max-xl:w-4/12 max-md:w-full">
                 <p class="text-2xl">+3</p>
                 <p class="text-xs">Experience</p>
             </div>
+            <!-- box three of client section -->
             <div
-                class="box3 bg-white flex max-sm:flex-col max-sm:w-full max-[1248px]:flex-col max-[1248px]:px-6 max-[1248px]:py-6 text-center max-[640px]:pt-9 py-12 text-black border-b-[2px] border-black align-middle max-sm:border-none">
-                <div class="boxone">
-                    <div
-                        class="box_one px-11 border-r-[1px] max-[640px]:border-r-hidden max-[670px]:border-b-[1px] max-[1248px]:border-b-[1px] max-[1248px]:border-r-0 border-black text-center">
+                class="box3 bg-white grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-3  max-xl:text-base max-sm:w-full max-xl:grid-cols-1 max-xl:w-full max-xl:border-b-0  text-center max-sm:border-b-[1px] max-xl:pb-0 max-md:w-full py-12 max-xl:p-0 text-black border-b-[2px] border-black align-middle max-sm:border-none">
+                <div
+                    class="boxone px-11 border-r-[1px] max-sm:border-r-hidden max-sm:border-b-[1px] max-md:border-r-[1px] max-xl:border-b-[1px] max-xl:border-r-0  max-xl:pb-4 max-xl:w-full  border-black text-center">
+                    <div class="box_one">
                         <p class="text-2xl"> 25+</p>
                         <span>
                             <p class="text-xs">Services</p>
@@ -112,7 +113,7 @@
                 </div>
                 <div class="boxtwo">
                     <div
-                        class="box_two px-11 border-r-[1px] max-[640px]:border-r-hidden max-[670px]:border-b-[1px] max-[1248px]:border-r-0 border-black text-center">
+                        class="box_two px-11 border-r-[1px] max-sm:border-r-hidden max-md:border-r-[1px] max-sm:border-b-[1px] max-xl:border-r-0 max-xl:border-b-[1px] max-xl:pb-4 border-black text-center">
                         <p class="text-2xl"> 520+</p>
                         <span>
                             <p class="text-xs">Successful Projects</p>
@@ -121,7 +122,7 @@
                 </div>
                 <div class="boxthree">
                     <div
-                        class="box_three px-11 border-r-[1px] max-[640px]:border-r-hidden max-[1248px]:border-r-0 max-[670px]:border-b-[1px] border-black w-auto">
+                        class="box_threepx-11 border-r-[1px] max-sm:border-r-hidden max-md:border-r-[1px] max-md:pb-8 max-sm:border-b-[1px] max-xl:border-r-0  max-xl:pb-4 max-xl:border-b-[1px]  border-black  text-center">
                         <p class="text-2xl"> 400+</p>
                         <p class="text-xs">Happy Clients</p>
                     </div>
@@ -131,15 +132,21 @@
     </section>
     <!-- client section ended -->
     <!-- about us / web development section started -->
-    <section class="my-12">
-        <div class="Web  flex max-[640px]:flex-col max-[640px]:flex-wrap justify-between">
+    <section>
+        <div
+            class="Web flex mt-16  bg-slate-400 max-sm:flex-col max-sm:-mt-40 max-md:mt-16 max-md:flex-col max-lg:flex-col">
             <!-- left side of about us  -->
-            <div class="content_main bg-transparent w-6/12">
+            <div
+                class="content_main bg-transparent w-6/12 max-sm:justify-center max-sm:w-full max-sm:p-0 max-md:w-full max-sm:px-4 max-lg:w-full">
                 <!-- content -->
-                <h2 class="uppercase text-4xl text-center pl-12 py-5 text-green-500"> Website Design and
+                <h2
+                    class="uppercase text-4xl text-center pl-12 py-5 text-green-500 max-sm:text-3xl max-sm:max-w-full max-sm:mt-20 max-sm:px-8 max-md:mt-24 max-md:px-9">
+                    Website Design and App
                     Development</h2>
 
-                <p class="text-justify text-[16px] pl-16 py-6 tracking-tight max-[540px]:flex-wrap"> Elscript Technology
+                <p
+                    class="text-justify text-[16px] pl-16 tracking-tight max-sm:flex-wrap max-sm:px-5 max-sm:pt-1 max-md:px-9 max-lg:px-12">
+                    Elscript Technology
                     is the Best Website
                     Design and
                     Development Company in Kathmandu, Nepal.One of the top online solution providers in
@@ -157,7 +164,9 @@
                     full-service e-solution provider thanks to our many years of expertise working with
                     customers and businesses in IT centers all over the world.</p>
 
-                <p class="text-justify text-[16px] pl-16 py-1 tracking-tight">Regardless of your budget, we create
+                <p
+                    class="text-justify text-[16px] pl-16 py-6 tracking-tight max-sm:flex-wrap max-sm:px-5 max-sm:pt-1 max-md:px-9 max-lg:px-12">
+                    Regardless of your budget, we create
                     cost-effective
                     websites utilizing the most recent website design technologies, enabling you to expand
                     your
@@ -179,12 +188,16 @@
 
             </div>
             <!-- right side of about us -->
-            <div class="web_box2 w-6/12">
-                <h1 class="text-center text-2xl py-2"> EXCELLENT CUSTOMER SERVICE IS OUR FOUNDATION</h1>
-                <div class="">
-                    <div class="grid grid-cols-2 pl-11  max-h-72 ">
-                        <div class="division_one px-2  my-8 w-5/6 h-60 mr-6 text-center ">
-                            <div class="pom-icon px-16 pt-5 py-0 text-green-600  w-12 justify-content-center">
+            <div
+                class="web_box2 w-6/12 max-sm:justify-center max-sm:w-full max-sm:p-0 max-md:w-full max-sm:px-4 max-lg:w-full max-lg:p-6 max-sm:m-0">
+                <h1 class="text-center text-2xl py-2 p-6 max-sm:p-0 max-lg:px-16"> EXCELLENT CUSTOMER SERVICE IS OUR
+                    FOUNDATION</h1>
+                <div class="max-sm:my-4">
+                    <!-- DIV ONE -->
+                    <div class="flex px-7 max-sm:flex-col max-sm:px-2 max-lg:px-16">
+                        <div
+                            class="division_one px-2  my-8 w-5/6 mr-6 text-center max-sm:w-auto max-sm:m-3 max-lg:py-4">
+                            <div class="pom-icon py-2 px-16 text-green-600 ">
                                 <span class="material-symbols-outlined justify-content-center google-icon text-[60px]">
                                     tips_and_updates
                                 </span>
@@ -197,8 +210,9 @@
                             </p>
 
                         </div>
-                        <div class="division_two px-2  my-8 w-5/6 h-60 text-center ">
-                            <div class="pom-icon px-16 pt-5 py-0 text-green-600  w-12 justify-content-center">
+                        <div
+                            class="division_two px-2  my-8 w-5/6 mr-6 text-center max-sm:w-auto  max-sm:m-3 max-lg:py-4">
+                            <div class="pom-icon px-16 py-2 text-green-600 justify-content-center">
                                 <span class="material-symbols-outlined justify-content-center google-icon text-[60px]">
                                     badge
                                 </span>
@@ -209,9 +223,11 @@
                                 recognize the importance of teamwork in turning ideas into reality.</p>
                         </div>
                     </div>
-                    <div class=" grid grid-cols-2 pl-11  max-h-72 ">
-                        <div class="division_three my-8 mr-6 px-2 py-3  w-5/6 h-64 text-center ">
-                            <div class="pom-icon px-16 pt-5 py-0 text-green-600  w-12 justify-content-center">
+                    <!-- DIV TWO -->
+                    <div class="flex px-7 max-sm:flex-col max-sm:px-2 max-lg:px-16">
+                        <div
+                            class="division_three px-2  my-8 w-5/6 mr-6 text-center max-sm:w-auto max-sm:m-3 max-lg:py-4">
+                            <div class="pom-icon px-14 py-0 text-green-600 justify-content-center">
                                 <span class="material-symbols-outlined justify-content-center google-icon text-[60px]">
                                     groups
                                 </span>
@@ -221,8 +237,9 @@
                                 in-depth research into your particular market and utilizing the expertise of trained
                                 professionals.</p>
                         </div>
-                        <div class="division_four px-2  py-3 my-8 w-5/6 h-64 text-center">
-                            <div class="pom-icon px-16 pt-5 py-0 text-green-600  w-12 justify-content-center">
+                        <div
+                            class="division_four px-2  my-8 w-5/6 mr-6 text-center max-sm:w-auto  max-sm:m-3 max-lg:py-4">
+                            <div class="pom-icon px-14 py-0 text-green-600 justify-content-center">
                                 <span class="material-symbols-outlined justify-content-center google-icon text-[60px]">
                                     link
                                 </span>
@@ -242,19 +259,22 @@
     <!-- about us section ended -->
     <!-- WEB AND APP DEVELOPMENT SERVICES -->
     <section>
-        <div class="services mt-16 px-16 py-7">
+        <div class="services mt-16 px-16 py-7 max-sm:p-2">
             <h1 class="text-4xl font-normal uppercase text-center"> Why do you need our
-                <span class="web1 uppercase text-center"> web and app development
+                <span class="web1 uppercase text-center max-sm:text-3xl"> web and app development
                     services?</span>
             </h1>
-            <p class="text-[16px] text-center py-4 pb-8">Any business that chooses to outsource its IT will get a number
+
+
+            <p class="text-[16px] text-center py-4 pb-8 max-sm:m-4">Any business that chooses to outsource its IT will
+                get a number
                 of
                 benefits. The
                 following are some of
                 the most typical need for a business to use Managed IT servivces.</p>
-            <div class="grid grid-cols-2 gap-4 grid-rows-5">
+            <div class="grid grid-cols-2 gap-8 max-sm:grid-cols-1">
                 <!-- grid ONE -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-2">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-center google-icon  text-6xl">
                             savings
@@ -282,7 +302,7 @@
                     </div>
                 </div>
                 <!-- GRID TWO STARTED -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-2">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-content-center google-icon text-6xl">
                             price_check
@@ -300,7 +320,7 @@
                     </div>
                 </div>
                 <!-- GRID THREE STARTED -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-4">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-content-center google-icon text-6xl">
                             sentiment_satisfied
@@ -319,7 +339,7 @@
                     </div>
                 </div>
                 <!-- GRID FOUR STARTED -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-4">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-content-center google-icon text-6xl">
                             browser_updated
@@ -339,7 +359,7 @@
                     </div>
                 </div>
                 <!-- GRID FIVE STARTED -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-4">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-content-center google-icon text-6xl">
                             checklist
@@ -360,7 +380,7 @@
                     </div>
                 </div>
                 <!-- GRID SIX STARTED -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-4">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-content-center google-icon text-6xl">
                             support_agent
@@ -381,7 +401,7 @@
                     </div>
                 </div>
                 <!-- GRID SEVEN STARTED -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-4">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-content-center google-icon text-6xl">
                             manage_accounts
@@ -401,7 +421,7 @@
                     </div>
                 </div>
                 <!-- GRID EIGHT STARTED -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-4">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-content-center google-icon text-6xl">
                             timer
@@ -419,7 +439,7 @@
                     </div>
                 </div>
                 <!-- GRID NINE STARTED -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-4">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-content-center google-icon text-6xl">
                             center_focus_strong
@@ -439,7 +459,7 @@
                     </div>
                 </div>
                 <!--  GRID TEN STARTED -->
-                <div class="services_one bg-white rounded-2xl">
+                <div class="services_one bg-white rounded-2xl max-sm:m-4">
                     <div class="pom-icon pt-4 text-center">
                         <span class="material-symbols-outlined justify-content-center google-icon text-6xl">
                             self_improvement
@@ -463,12 +483,13 @@
     <!-- WHY CHOOSE US SECTION STARTED -->
     <section>
         <div class="WHY_US ">
-            <div class="us mx-5 my-4 mt-16 px-10 text-4xl">
+            <div class="us mx-5 my-4 mt-16 px-10 text-4xl max-sm:text-center">
                 <h1> WHY CHOOSE <span class="us1"> US?</span></h1>
             </div>
             <!-- DIVISION ONE OF WHY CHOOSE US? -->
 
-            <div class="grid mx-16 my-20 px-2 flex-wrap grid-cols-2 gap-2 grid-rows-6 ">
+            <div
+                class="grid mx-16 my-20 px-2 grid-cols-2 gap-3 max-sm:grid-cols-1 max-sm:m-4 max-lg:grid-cols-1 max-md:m-3">
                 <!-- BOX 1 -->
                 <div class="box-1 mx-2 pb-12 flex border-b-[1px] border-black">
                     <div class="icon py-2 ">
@@ -477,7 +498,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">Quality Solutions</h5>
 
                         <p class="text-[16px] py-3">
@@ -495,7 +516,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">Brand Reputation</h5>
 
                         <p class="text-[16px] font-normal py-3">
@@ -513,7 +534,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">Customized Solutions</h5>
 
                         <p class="text-[16px] font-normal py-2">
@@ -530,7 +551,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">Real Time Results</h5>
 
                         <p class="text-[16px] font-normal py-2">
@@ -548,7 +569,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">Latest technology</h5>
 
                         <p class="text-[16px] font-normal py-3">
@@ -566,7 +587,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">25-30% Business Growth in 3-6months</h5>
 
                         <p class="text-[16px] font-normal py-2">
@@ -584,7 +605,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">Advanced Security &amp; Scalability
                         </h5>
 
@@ -602,7 +623,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">Cost Effective</h5>
 
                         <p class="text-[16px] font-normal py-2">
@@ -618,7 +639,7 @@
                             speed
                         </span>
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">High Performance &amp; Speed</h5>
 
                         <p class="text-[16px] font-normal py-3">
@@ -635,7 +656,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">Focused on ROI</h5>
 
                         <p class="text-[16px] font-normal py-2">
@@ -653,7 +674,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3 py-4">
                         <h5 class="text-2xl">Expertised Team</h5>
 
                         <p class="text-[16px] font-normal py-2">
@@ -670,7 +691,7 @@
                         </span>
 
                     </div>
-                    <div class="content px-3 ">
+                    <div class="content px-3    py-4 ">
                         <h5 class="text-2xl">High Conversion Rates</h5>
 
                         <p class="text-[16px] font-normal py-2">
@@ -685,19 +706,24 @@
     <!-- WHY CHOOSE US SECTION ENDED -->
     <!--  PACKAGES SECTION STARTED -->
     <section>
-        <div class=" mt-20 px-16 justify-center">
-            <span class="web1 uppercase text-4xl"> Website design and development</span>
-            <h2 class="uppercase text-4xl"> packages in nepal
-            </h2>
-            <div class="grid px-5  py-10 grid-cols-3 grid-rows-1 gap-10">
-                <!-- BRONZE PACKAGE -->
+        <div class=" mt-20 px-16 justify-center max-sm:p-0 max-md:p-0">
+            <div class="text-center uppercase text-4xl">
+                <span class="web1"> Website design and app development</span>
+                <h2> packages in nepal
+                </h2>
+            </div>
+            <div
+                class="grid grid-cols-2 gap-10 mx-32 py-10 max-sm:grid-cols-1 max-sm:m-8 max-md:grid-cols-1 max-md:m-8 max-lg:grid-cols-1 max-lg:m-8">
+                <!-- BASIC PACKAGE -->
                 <div class="package_list">
-                    <div class="bg-green-600 w-[100%] h-20  text-white text-center">
-                        <h4 class="text-2xl py-2"> Bronze</h4>
-                        <p class="text-xs">Basic Website</p>
+                    <div class="bronze_package  h-20  text-white text-center">
+                        <h4 class="text-2xl py-2"> Basic</h4>
+                        <p class="text-xs">Website Only</p>
                     </div>
-                    <div class="py-4 text-center text-xl">
-                        <h3>Starting $2499 / Rs 2,50,000</h3>
+                    <div class="py-4 text-center text-[22px] ">
+                        <h3>Starting $999 / Rs 99,999
+                            <span class="text-[19px]">Excluding VAT </span>
+                        </h3>
                     </div>
                     <ul class="py-4">
                         <li class="flex text-[18px] mb-4">
@@ -706,8 +732,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg> HTML+CSS+JS
+
+                            </svg> ReactJS+NodeJS+NextJS
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -715,34 +741,7 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg> Free Logo Design
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> ReactJs+NestJS Frontend
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> NodeJS Backend
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
+
                             </svg> Admin & Customer Login Portal
                         </li>
                         <li class="flex text-[18px] mb-4">
@@ -751,16 +750,7 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg> General Reports System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
+
                             </svg> Mobile Optimized
                         </li>
                         <li class="flex text-[18px] mb-4">
@@ -769,7 +759,7 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
+
                             </svg> SEO Friendly
                         </li>
                         <li class="flex text-[18px] mb-4">
@@ -778,8 +768,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>1 Card Payment Gateway
+
+                            </svg> Payment Gateway
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -787,8 +777,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg> 1 Wallet Payment Gateway
+
+                            </svg>Blog System
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -796,8 +786,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg> 1st year Domain
+
+                            </svg> Cpanel/Gsuite Email Setup
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -805,356 +795,7 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg> FAQ Section
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Blog System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Messenger/Whatsapp Chat
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Free Cpanel Email Setup
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Google Translate
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Favicon Setup
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> CDN Setup
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Free SSL Setup
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Secured System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Basic Terms & Condition
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Basic Privacy Policy
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Contact Form
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Google Map Integration
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Single Vendor System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Simple Search System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Simple Filter System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>3 Month Free Maintenance
-                        </li>
-                    </ul>
-                    <!-- BUTTON OF GETTING STARTED -->
-                    <div class="button text-center mx-10 py-2 mb-12 text-2xl border-green-500 border-[2px]">
-                        <a href="https://www.elscript.com/our-contact"> Get Started</a>
-                    </div>
-                </div>
-                <!-- SILVER PACKAGE -->
-                <div class="package_list">
-                    <div class="bg-green-600 w-[100%] h-20  text-white text-center">
-                        <h4 class="text-2xl py-2">Silver</h4>
-                        <p class="text-xs">For Advanced Business</p>
-                    </div>
-                    <div class="py-4 text-center text-xl">
-                        <h3>Starting $4999 / Rs 5,00,000</h3>
-                    </div>
-                    <ul class="py-4">
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> All of Bronze
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Website Figma Design
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Strong Code Foundation
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Self Use Advanced system
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Advanced Reports System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Gsuite Email Setup
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Referal System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Promocode System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Website Images Design
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> 2 Card Payment Gateway
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>2 Wallet Payment Gateway
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Advanced SMTP Integration
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Support Ticket System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Google Captcha Setup
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Github Connected
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Multiple Server Setup
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Multiple Currency Setup
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Activity Log
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>2FA Email
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> SMS Integration
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
+
                             </svg> Staff User on Admin Portal
                         </li>
                         <li class="flex text-[18px] mb-4">
@@ -1163,8 +804,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>Advanced Terms & Condition
+
+                            </svg>SMS Integration
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -1172,8 +813,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>Multi Vendor System
+
+                            </svg> Login with Google
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -1181,16 +822,7 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>Login with Google
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
+
                             </svg>Login with Facebook
                         </li>
                         <li class="flex text-[18px] mb-4">
@@ -1199,40 +831,25 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>Advanced Search System
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Advanced Filter System
-                        </li>
-                        <li class="flex text-[18px] mb-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>6 Month Free maintenance
-                        </li>
+
+                            </svg> 3 Month Free Maintenance
+
                     </ul>
-                    <div class="button text-center mx-10 py-2 mb-12 text-2xl border-green-500 border-[2px]">
+                    <!-- BUTTON OF GETTING STARTED -->
+                    <div class="button text-center mx-14 py-2 mb-12 text-xl border-green-500 border-[2px] max-sm:mr-36">
                         <a href="https://www.elscript.com/our-contact"> Get Started</a>
                     </div>
                 </div>
-                <!-- GOLD PACKAGE -->
+                <!-- PREMIUM PACKAGE -->
                 <div class="package_list">
-                    <div class="bg-green-600 w-[100%] h-20  text-white text-center">
-                        <h4 class="text-2xl py-2">Gold</h4>
-                        <p class="text-xs">For Premium Business + Mobile App</p>
+                    <div class="premium_package h-20  text-white text-center">
+                        <h4 class="text-2xl py-2">Premium</h4>
+                        <p class="text-xs">For Website + Mobile App</p>
                     </div>
-                    <div class="py-4 text-center text-xl">
-                        <h3>Starting $9999/ Rs 10,00,000</h3>
+                    <div class="py-4 px-0 text-center">
+                        <h3 class="text-[22px]">Starting $4999/ Rs 5,00,000
+                            <span class="text-[20px]">Excluding VAT </span>
+                        </h3>
                     </div>
                     <ul class="py-4">
                         <li class="flex text-[18px] mb-4">
@@ -1241,8 +858,7 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>All of Bronze and Silver
+                            </svg> All of Bronze
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -1250,8 +866,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg> App Figma Design
+
+                            </svg> React Native
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -1259,8 +875,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg> Self Use Enterprise System
+
+                            </svg> IOS Mobile App
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -1268,8 +884,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>Android Mobile App
+
+                            </svg>Google Play Account
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -1277,8 +893,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>IOS Mobile App
+
+                            </svg> 1st Year Apple Store Account
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -1286,8 +902,8 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>APP Images Design
+
+                            </svg>GPlayStore Guidelines Check
                         </li>
                         <li class="flex text-[18px] mb-4">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
@@ -1295,61 +911,7 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg>React Native
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Google Play Account
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>1st Year Apple Store Account
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> Premium Terms & Condition
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>Premium Terms & Condition
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>PlayStore Guidelines Check
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
+
                             </svg> Apple Store Guidelines Check
                         </li>
                         <li class="flex text-[18px] mb-4">
@@ -1358,7 +920,7 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
+
                             </svg> Push Notification
                         </li>
                         <li class="flex text-[18px] mb-4">
@@ -1367,52 +929,16 @@
                                 <path fill-rule="evenodd"
                                     d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                                     clip-rule="evenodd">
-                                    ::before
-                            </svg> Push Announcement
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>1 Month Free Digital Marketing
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>1 Month Free SEO
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg> $100 Free Server Credit
-                        </li>
-                        <li class="flex text-[18px] mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                class="check w-4 h-4 mx-4 my-1">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                    clip-rule="evenodd">
-                                    ::before
-                            </svg>12 Month Free Maintenance
+
+                            </svg>6 Month Free Maintenance
                         </li>
 
                     </ul>
-                    <div class="button text-center mx-10 py-2 mb-12 text-2xl border-green-500 border-[2px]">
+                    <div class="button text-center mx-14 py-2 mb-12 text-xl border-green-500 border-[2px] max-sm:mr-36">
                         <a href="https://www.elscript.com/our-contact"> Get Started</a>
                     </div>
                 </div>
-
+                <!-- END OF PACKAGES -->
             </div>
         </div>
     </section>
@@ -1420,26 +946,30 @@
     <!-- HAPPY  CLIENTS STARTED -->
     <section>
         <div class="my-6">
-            <div class="grid-cols-4 grid-rows-1 flex justify-between px-12">
-                <div class="content_happysection flex text-4xl ">
+            <div class="px-12 flex max-sm:flex-col max-sm:p-3 ">
+                <div class="content_happysection flex text-4xl max-sm:justify-center max-sm:m-3">
                     <h3>HAPPY
                         <span class="web1">CLIENTS</span>
                     </h3>
                 </div>
-                <div class="content_happysection ml-96 text-center ">
-                    <h4 class="text-green-500  text-3xl">400+</h4>
-                    <p class="text-xs"> Happy Clients</p>
-                </div>
-                <div class="content_happysection hover:text-green-500 transition-all text-xl py-2 flex">
-                    <a href="https://www.elscript.com/our-clients">See All</a>
+                <div class="flex ml-80 max-sm:m-0 max-sm:justify-between max-md:m-0 max-lg:m-0 max-lg:justify-between">
+                    <div class="content_happysection  text-center">
+                        <h4 class="text-green-500  text-3xl">400+</h4>
+                        <p class="text-xs"> Happy Clients</p>
+                    </div>
+                    <div class="content_happysection hover:text-green-500 transition-all text-xl py-2 flex pl-20">
+                        <a href="https://www.elscript.com/our-clients">See All</a>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-5 h-5 mx-2 ">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                    </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-5 h-5 mx-2 ">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
                 </div>
             </div>
-            <div class="grid grid-cols-6 gap-6 grid-rows-2 px-14 my-6  ">
+            <!-- CLIENTS LOGO -->
+            <div class="p-8 my-6 flex flex-wrap max-sm:pl-20 gap-7">
                 <!-- HARSAL CLIENT -->
                 <div class="h-36 w-32 border-black border-[1px] cursor-pointer">
                     <img src="/harsal.webp" alt="harsal" class="grayscale hover:grayscale-0 duration-700 ">
@@ -1510,7 +1040,7 @@
     <section>
         <div class="Web  mt-20">
 
-            <div class="contact_us flex justify-between mx-6 px-6 py-8">
+            <div class="contact_us flex justify-between mx-6 px-6 py-8 max-sm:flex-wrap max-sm:justify-center">
                 <!-- LEFT SIDE OF HEADER IN CONTACT US -->
                 <div class="px-6 py-2 text-4xl ">
                     <h3> CONTACT <span class="web1"> US</span>
@@ -1518,7 +1048,7 @@
                     </h3>
                 </div>
                 <!--  RIGHT SIDE OF HEADER-->
-                <div class="content_happysection hover:text-green-500 transition-all text-xl py-2 flex">
+                <div class="content_happysection hover:text-green-500 transition-all text-xl py-2 flex max-sm:jus">
                     <a href="https://www.elscript.com/our-clients">See All</a>
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -1527,17 +1057,17 @@
                     </svg>
                 </div>
             </div>
-            <div class="grid grid-cols-2 gap-8  bg-white mx-12 pt-8">
+            <div class="flex  gap-8  bg-white mx-12 max-sm:m-0 max-sm:p-0">
                 <!-- MAP SIDE  -->
-                <div>
+                <div class="order-1 w-11/12 h-auto pt-12 max-sm:order-2 max-sm:w-full max-sm:h-60">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.5434039440775!2d85.34278962750854!3d27.700503704819706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb197353aaa9a3%3A0xe4b26c4a24bfaeaf!2sElscript%20Technology%20Pvt%20Ltd!5e0!3m2!1sen!2snp!4v1671342049124!5m2!1sen!2snp"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" class="h-full">
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="w-full h-full">
                     </iframe>
                 </div>
                 <!-- FORM SIDE -->
-                <div class="px-8 py-8 pb-0">
+                <div class="px-8 py-8 pb-0 order-2 max-sm:order-1 ">
                     <h2 class="py-2 text-4xl">Lets Get Started Now</h2>
                     <p class="py-4 text-[18px]">Please fill out the quick form and we will be in touch with you in
                         lightning
@@ -1563,7 +1093,7 @@
     <!-- CONTACT US SECTION ENDED -->
     <footer>
         <div class="footer ">
-            <div class="grid grid-cols-5 gap-6 mx-9 px-12 py-3">
+            <div class="flex flex-wrap max-sm:m-0 max-sm:p-0 mx-9 px-12 py-3">
                 <!-- OUR SERVICES COLUMN STARTED-->
                 <div class="text-green-500 mx-2 my-11 px-6">
                     <h1 class="text-green-500 text-2xl py-4">Our Services</h1>
@@ -1647,7 +1177,7 @@
                 </div>
                 <!-- QUICK LINK COLUMN ENDED -->
                 <!-- FOURTH HEADER STARTED -->
-                <div class="text-green-500  py-14">
+                <div class="text-green-500 px-6 py-14">
                     <h1 class="text-green-500 text-[25px]">Talk To Our<br> Expert Today</h1>
 
                     <div class="contact text-white text-[20px] py-2">
