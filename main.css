@@ -15,6 +15,9 @@
 body {
     font-family: 'Varela Round', sans-serif;
     border: red 2px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
 @media only screen and (max-width: 640px) {
@@ -142,16 +145,42 @@ body {
     color: #3cb878;
 
 }
+.arrow {
+    transition: transform 350ms ease-in-out;
+  }
+
+.content_happysection:hover{
+    color: #3cb878;
+    transform: rotate(360deg);
+    
+}
+
 .contact_us {
     background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(/aboutus-bg.webp);
     background-size: cover;
     background-position: center;
 
 }
-.form {
-    border: none;
-
+.content_happysection{
+    display: flex;
+    align-items: center;
+    
 }
+
+.content_happysection:hover .arrow{
+    transform: rotate(360deg);
+}
+
+.sub_btn:hover{
+    color: #3cb878;
+}
+.sub_btn:hover .arrow {
+    transform: rotate(360deg);
+   
+}
+
+
+
 
 .footer {
     background-color: #272727;
