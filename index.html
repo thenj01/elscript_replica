@@ -24,7 +24,7 @@
 
 <body class="bg-white">
     <!-- navigation bar -->
-    <nav class="nav_bar sticky flex justify-between z-50 bg-white ">
+    <nav class="nav_bar sticky  flex justify-between z-50 bg-white ">
         <img src="/1.webp" alt="Company Logo" class="logo h-14 w-40 mx-1 my-2 px-1">
 
         <ul class=" nav_list px-11 py-5 flex space-x-12 justify-end max-[1029px]:hidden">
@@ -56,16 +56,16 @@
     <section>
         <div class="hero-section grid grid-cols-2 max-sm:grid-cols-1 order-first max-sm:order-last">
             <!-- hero section text -->
-            <div class="hero_content mr-32 pr-32 pl-6 py-2 ">
-                <div class="herotext uppercase text-[45px] max-md:text-lg text-left max-xl:text-3xl max-sm:text-center max-sm:pl-16">
+            <div class="hero_content mr-32 pr-32 pl-6 py-2 max-sm:m-0 max-sm:p-6 max-sm:text-center">
+                <div class="herotext max-[342px]:w-full uppercase mb-4 leading-tight text-[45px] max-md:text-lg text-left max-xl:text-3xl max-sm:text-center">
                     <h4>We can help
                         your business
                         Reach Potential Customers.
                     </h4>
                 </div>
                 <!-- BUTTONS -->
-                <div class="btn mx-6 mb-4 ">
-                    <div class="buttons flex space-x-3 text-xl px-2 max-w-xl max-sm:text-sm max-sm:pl-6">
+                <div class="btn mx-3 mb-4 flex  max-sm:justify-center">
+                    <div class="buttons flex space-x-3 text-xl px-2 max-w-xl max-sm:text-sm">
                         <button
                             class="bg-white border-2 border-solid border-green-600 px-3 py-2 pr-6 pl-4 justify-center">
                             Contact
@@ -101,9 +101,9 @@
             </div>
             <!-- box three of client section -->
             <div
-                class="box3 bg-white grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-3  max-xl:text-base max-sm:w-full max-xl:grid-cols-1 max-xl:w-full max-xl:border-b-0  text-center max-sm:border-b-[1px] max-xl:pb-0 max-md:w-full py-12 max-xl:p-0 text-black border-b-[2px] border-black align-middle max-sm:border-none">
+                class="box3 z-50 bg-white grid grid-cols-3 max-sm:grid-cols-1 max-md:grid-cols-3  max-xl:text-base max-sm:w-full max-xl:grid-cols-1 max-xl:w-full max-xl:border-b-0  text-center max-sm:border-b-[1px] max-xl:pb-0 max-md:w-full py-12 max-xl:p-0 text-black border-b-[2px] border-black align-middle max-sm:border-none">
                 <div
-                    class="boxone px-11 border-r-[1px] max-sm:border-r-0 max-sm:border-b-[1px] max-sm:border-black max-md:border-r-[1px] max-xl:border-b-[1px] max-xl:border-r-0  max-xl:pb-4 max-xl:w-full  border-black text-center">
+                    class="boxone px-11 border-r-[1px] max-sm:border-r-0 max-sm:border-b-[1px] max-sm:border-1 max-sm:border-black max-md:border-r-[1px] max-xl:border-b-[1px] max-xl:border-r-0  max-xl:pb-4 max-xl:w-full  border-black text-center">
                     <div class="box_one">
                         <p class="text-2xl"> 25+</p>
                         <span>
@@ -132,15 +132,15 @@
     </section>
     <!-- client section ended -->
     <!-- about us / web development section started -->
-    <section>
+    <section class="mt-16">
         <div
-            class="Web flex mt-16  bg-slate-400 max-sm:flex-col max-sm:-mt-40 max-md:mt-16 max-md:flex-col max-lg:flex-col">
+            class="Web flex  bg-slate-400 max-sm:flex-col max-md:mt-16 max-md:flex-col max-lg:flex-col">
             <!-- left side of about us  -->
             <div
-                class="content_main bg-transparent w-6/12 max-sm:justify-center max-sm:w-full max-sm:p-0 max-md:w-full max-sm:px-4 max-lg:w-full">
+                class="content_main bg-transparent w-6/12 max-sm:justify-center max-sm:w-full max-sm:p-0  max-md:w-full max-sm:px-4 max-lg:w-full">
                 <!-- content -->
                 <h2
-                    class="uppercase text-4xl text-center pl-12 py-5 text-green-500 max-sm:text-3xl max-sm:max-w-full max-sm:mt-10 max-sm:px-8 max-md:mt-24 max-md:px-9">
+                    class="uppercase text-4xl text-center pl-12 py-5 text-green-500  max-sm:text-xl max-sm:max-w-full max-sm:mt-10 max-sm:px-8 max-md:mt-24 max-md:px-9">
                     Website Design and App
                     Development</h2>
 
@@ -189,7 +189,7 @@
             </div>
             <!-- right side of about us -->
             <div
-                class="web_box2 w-6/12 max-sm:justify-center max-sm:w-full max-sm:p-0 max-md:w-full max-sm:px-4 max-lg:w-full max-lg:p-6 max-sm:m-0">
+                class="web_box2 w-6/12 max-[445px]:mt-5 max-sm:justify-center max-sm:w-full max-sm:p-0 max-md:w-full max-sm:px-4 max-lg:w-full max-lg:p-6 max-sm:m-0">
                 <h1 class="text-center text-2xl py-2 p-6 max-sm:p-0 max-lg:px-16"> EXCELLENT CUSTOMER SERVICE IS OUR
                     FOUNDATION</h1>
                 <div class="max-sm:my-4">
@@ -260,8 +260,8 @@
     <!-- WEB AND APP DEVELOPMENT SERVICES -->
     <section>
         <div class="services mt-16 px-16 py-7 max-sm:p-2">
-            <h1 class="text-4xl font-normal uppercase text-center"> Why do you need our
-                <span class="web1 uppercase text-center max-sm:text-3xl"> web and app development
+            <h1 class="text-4xl font-normal uppercase text-center max-sm:text-xl"> Why do you need our
+                <span class="web1 uppercase text-center"> web and app development
                     services?</span>
             </h1>
 

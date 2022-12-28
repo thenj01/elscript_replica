@@ -14,8 +14,7 @@
 
 body {
     font-family: 'Varela Round', sans-serif;
-    
-
+    border: red 2px;
     
 }
 @media only screen and (max-width: 640px) {
