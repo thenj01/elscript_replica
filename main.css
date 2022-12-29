@@ -20,27 +20,11 @@ body {
     box-sizing: border-box;
     
 }
-@media only screen and (max-width: 640px) {
-    .hero_content {
-        order: 2;
-        width: 100%;
-        justify-content: center;
-
-    }
-
-    .herotext {
-        width: 100%;
-        padding-top: 20px;
-        text-align: center;
-        align-items: center;
-        font-size: 10px;
-
-    }
-
-    .heroimg {
-        order: 1;
-    }
-}
+.herotext{
+    width: 400px;
+    height: 350px;
+    padding-left: 20px;
+ }
 
 @media only screen and (max-width: 640px) {
     .box2 {
