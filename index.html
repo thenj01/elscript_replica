@@ -20,12 +20,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
 
     <title>Website Design and Development-Elscript Technology</title>
-    <link rel="icon" type="image/x-icon" href="/1.ico">
+    <link rel="icon" type="image/x-icon" href="/hi.ico">
 </head>
 
 <body class="bg-white">
     <!-- navigation bar -->
-    <nav class="nav_bar sticky  flex justify-between z-50 bg-white ">
+    <nav class="nav_bar sticky flex justify-between z-50 bg-white ">
         <img src="/1.webp" alt="Company Logo" class="logo h-14 w-40 mx-1 my-2 px-1">
 
         <ul class=" nav_list px-11 py-5 flex space-x-12 justify-end max-[1029px]:hidden">
@@ -55,18 +55,18 @@
     </nav>
     <!--Hero section started-->
     <section>
-        <div class="hero-section grid grid-cols-2 max-sm:grid-cols-1 order-first max-sm:order-last">
+        <div class="hero-section w-full  flex justify-between max-sm:flex-col  order-first max-sm:order-last">
             <!-- hero section text -->
-            <div class="hero_content mr-32 pr-32 pl-6 py-2 max-sm:m-0 max-sm:p-6 max-sm:text-center">
+            <div class="hero_content w-2xl max-sm:w-full p-4 max-sm:m-0  max-sm:p-8 max-sm:justify-center">
                 <div
-                    class="herotext max-[342px]:w-full uppercase mb-4 leading-tight text-[45px] max-md:text-lg text-left max-xl:text-3xl max-sm:text-center">
+                    class="herotext max-[342px]:w-full  max-sm:px-10 uppercase mb-4 leading-tight text-[45px] max-sm:h-28 max-sm:text-3xl max-md:text-lg text-left max-xl:text-3xl max-sm:text-center">
                     <h4>We can help
                         your business
-                        Reach Potential Customers.
+                        <span class="auto-input"></span>
                     </h4>
                 </div>
                 <!-- BUTTONS -->
-                <div class="btn mx-3 mb-4 flex  max-sm:justify-center">
+                <div class="btn mx-3 mb-2 flex justify-center max-sm:pt-20">
                     <div class="buttons flex space-x-3 text-xl px-2 max-w-xl max-sm:text-sm">
                         <button
                             class="bg-white border-2 border-solid border-green-600 px-3 py-2 pr-6 pl-4 justify-center">
@@ -79,10 +79,11 @@
                 </div>
             </div>
             <!-- image -->
-            <div class="heroimg">
-                <img src="/2.webp" alt="elscript hero" class="w-auto max-sm:h-auto">
+            <div class="heroimg max-w-xl order-last max-sm:order-first">
+                <img src="/2.webp" alt="elscript hero">
             </div>
         </div>
+        
     </section>
     <!-- Hero section ended -->
     <!-- client section started -->
@@ -1262,6 +1263,15 @@
 
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["THRIVE TO SUCCESS.", "ATTAIN MORE SALES.", "REACH POTENTIAL CUSTOMERS.", "ESTABLISH MORE PRESENCE."],
+            typeSpeed: 100,
+            backSpeed:100, 
+            loop: true
+        })
+    </script>
 </body>
 
 </html>
